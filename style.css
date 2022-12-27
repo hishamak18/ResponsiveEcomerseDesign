@@ -11,7 +11,18 @@
 body {
     width: 100%;
 }
-
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
 h1 {
     font-size: 50px;
     line-height: 64px;
@@ -109,7 +120,6 @@ p{
     color: #088178;
 }
 #hero button{
-    background-image: url(./assets/btn-bg.png);
     /* background-color:transparent ; */
     color: #088178;
     border:0;
@@ -121,8 +131,13 @@ p{
     font-weight: 700;
     font-size: 15px;
 }
+#hero button:hover{
+    background: #088178;
+    color: #fff;
+}
 
 /* feature Section---------------------------------- */
+/* --------------------------------------------------- */
 .section-p1{
     padding: 40px 80px;
 }
@@ -175,6 +190,7 @@ p{
 }
 
 /* Feature Products Section------------------------------------ */
+/* ----------------------------------------------------------------- */
 #product1{
        text-align: center;
 }
@@ -242,3 +258,35 @@ p{
     bottom: 20px;
     right: 10px;
 }
+
+/* Banner Section------------------------------ */
+.section-m1{
+    margin: 40px 0;
+}
+#banner{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-image:url(./assets/banner/b2.jpg);
+ width: 100%;
+ height: 40vh;
+ background-position: center;
+ background-size: cover;
+}
+#banner h4{
+  color: #fff;
+  font-size: 16px;    
+}
+#banner h2{
+    color: #fff;
+    font-size: 30px;
+    padding:10px 0 ;    
+  }
+  #banner h2 span{
+    color:#ef3636;
+  }
+  #banner button:hover{
+    background: #088178;
+    color: #fff;
+  }
