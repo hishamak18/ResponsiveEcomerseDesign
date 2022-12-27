@@ -156,6 +156,8 @@ p{
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
+    overflow: hidden;
+
 }
 #feature .fet-box:hover{
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1 );
